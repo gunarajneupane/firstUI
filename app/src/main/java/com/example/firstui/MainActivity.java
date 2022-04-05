@@ -1,12 +1,18 @@
 package com.example.firstui;
 
 import android.os.Bundle;
-
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+/**
+ * Displays two Buttons and a TextView.
+ * - Pressing the TOAST button shows a Toast.
+ * - Pressing the COUNT button increases the displayed mCount.
+ *
+ */
 
 public class MainActivity extends AppCompatActivity {
 
